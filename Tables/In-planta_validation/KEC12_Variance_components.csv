@@ -1,0 +1,4 @@
+"","grp","var1","var2","vcov","sdcor"
+"1","Chamber:Trial","(Intercept)",NA,0.267794634474587,0.51748877714844
+"2","Trial","(Intercept)",NA,0,0
+"3","Residual",NA,NA,1.6993189733295,1.30357929307331
