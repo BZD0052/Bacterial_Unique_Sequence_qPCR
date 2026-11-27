@@ -67,14 +67,14 @@ plot_kec_vs_uniqueseq
 
 
 # Assuming your plot is stored in the variable `plot`
-ggsave("unique_sequences_plot2.png", plot = plot_kec_vs_uniqueseq, width = 10, height = 6, dpi = 400)
+ggsave("Figures/unique_sequences_plot.png", plot = plot_kec_vs_uniqueseq, width = 10, height = 6, dpi = 400)
 
 
 
 
 ##Figure : BLAST hits; DH44 coding regions  vs KEC regions 
 #Load the data
-Blast_results <- read.csv("finalblast_2ndthought.csv")
+Blast_results <- read.csv("Final_BLAST.csv")
 
 str(results)
 library("tidyverse")
@@ -100,6 +100,6 @@ single_blast_hits <-ggplot(filtered.results, aes(x = reorder(Unique_genes, -n), 
 
 single_blast_hits
 # Assuming your plot is stored in the variable `plot`
-ggsave("single_blast_hits2.png", plot = single_blast_hits, width = 10, height = 6, dpi = 400)
+ggsave("Figures/single_blast_hits.png", plot = single_blast_hits, width = 10, height = 6, dpi = 400)
 
 
